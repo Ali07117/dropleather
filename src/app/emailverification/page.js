@@ -34,7 +34,7 @@ function page() {
                         <div>
                             <h1 className=' text-align-center text-[#0F172A] font-[700] text-[29.85px] leading-[100%] font-bric'>Enter email verification code</h1>
                             <p className=' text-align-center input-sections font-bric w-[400px] font-[400] text-[18px] leading-[100%] text-[#000000] mt-[20px]'>Please check your email box. We have sent verification code to <span className='font-[600]'>admin@dropleather.com.</span> If you can't find the email, please check your spam folder.</p>
-                            <div className="flex mt-[25px] items-center justify-content-center gap-[18px]">
+                            <div className="flex mt-[25px] items-center otp-box-gap justify-content-center gap-[18px]">
                                 {otp.map((digit, index) => (
                                     <input
                                         key={index}
@@ -45,7 +45,7 @@ function page() {
                                         value={digit}
                                         onChange={(e) => handleChange(e.target.value, index)}
                                         onKeyDown={(e) => handleKeyDown(e, index)}
-                                        className={`no-arrows h-[70px] w-[70px] outline-none border-[2px] -otpinput ${digit ? "border-[#000000]" : "border-[rgba(0,0,0,0.5)]"
+                                        className={`no-arrows h-[70px] w-[70px] otp-box outline-none border-[2px] -otpinput ${digit ? "border-[#000000]" : "border-[rgba(0,0,0,0.5)]"
                                             } text-[50px] font-[500] font-bric text-center text-[#000000] rounded-[7px]`}
                                     />
                                 ))}

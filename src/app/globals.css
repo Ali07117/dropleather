@@ -60,7 +60,7 @@ body {
 
 @media screen and (max-width: 1010px) {.login-right{display: none;} .login-left{width: 100%;} }
 @media screen and (max-width: 750px) {.heading-h1{font-size: 42px; text-align: center;} .heading-h2{font-size: 24px;} .login-left img{padding-left: 20px;}}
-@media screen and (max-width: 600px) {.heading-h1{font-size: 29.85px;} .heading-h2{font-size: 24px;} .login-left img{padding-left: 0px;}}
+@media screen and (max-width: 600px) {.heading-h1{font-size: 29.85px;} .heading-h2{font-size: 24px;} .login-left img{padding-left: 0px;} .otp-box{height: 45px; width: 45px;} .otp-box-gap{gap: 10px;}}
 @media screen and (max-width: 600px) { .input-sections{width: 100% !important;} .login-left{padding-left: 10px; padding-right: 10px;} .text-align-center{text-align: center;} .justify-content-center{justify-content: center;} .line-height-full{line-height: 100%;} }
 
 /* ===== Responsive ===== */
