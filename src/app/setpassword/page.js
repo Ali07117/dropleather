@@ -73,7 +73,7 @@ function page() {
                                 />
                             </div>
                             <img className='mt-[25px]' src="/images/clouddummy.svg" alt="" />
-                            <button className=' input-sections w-[400px] bg-[#E9E9ED] mt-[25px] rounded-[8.26px] py-[10px] px-[30px] text-[#ADAFB3] text-[15px] font-bric font-[600]'>Reset password</button>
+                            <button className=' input-sections w-[400px] bg-[#E9E9ED] mt-[25px] rounded-[8.26px] py-[10px] px-[30px] text-[#ADAFB3] text-[15px] hover:text-[#E9E9ED] duration-500 hover:bg-[#ADAFB3] font-bric font-[600]'>Reset password</button>
                         </div>
                     </div>
                 </div>

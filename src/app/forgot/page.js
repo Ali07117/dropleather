@@ -16,7 +16,7 @@ function page() {
                                 <input className='opacity-[0.80] w-[80%] text-[#000000] text-[15px] leading-[15.87px] outline-none border-none font-[display]' placeholder='Enter your E-mail' type="email" name="" id="" />
                             </div>
                             <img className='mt-[25px]' src="/images/clouddummy.svg" alt="" />
-                            <Link href="/setpassword"> <button className='input-sections w-[400px] bg-[#E9E9ED] mt-[20px] rounded-[8.26px] py-[10px] px-[30px] text-[#ADAFB3] text-[15px] font-bric font-[600]'>Reset password</button></Link>
+                            <Link href="/setpassword"> <button className='input-sections w-[400px] bg-[#E9E9ED] mt-[20px] hover:text-[#E9E9ED] duration-500 hover:bg-[#ADAFB3] rounded-[8.26px] py-[10px] px-[30px] text-[#ADAFB3] text-[15px] font-bric font-[600]'>Reset password</button></Link>
                             <div className='flex justify-end mt-[20px] justify-content-center'>
                                 <p className='font-bric font-[500] text-align-center line-height-full text-[16px] leading-[12.54px] text-[#363636]'>Don't have a DropLeather account yet? <Link href="/signup"><span className='text-[#000000] font-[600] text-[16px] font-bric leading-[12.54px] underline'>Sign Up</span></Link></p>
                             </div>

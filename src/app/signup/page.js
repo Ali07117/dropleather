@@ -75,7 +75,7 @@ function page() {
                                 <img className='inline-flex' src="/images/agreeicon.svg" alt="" />
                                 <span className='text-[15px] font-[300] ml-[10px] font-bric leading-[12.54px] line-height-full '>I agree to logo‘s <span className='text-[15px] cursor-pointer font-[600] font-bric leading-[12.54px] underline'>Terms of service</span> and <span className='text-[15px] font-[600] font-bric leading-[12.54px] cursor-pointer underline'>Privacy Policy</span> </span>
                             </div>
-                            <Link href="/emailverification"><button className='input-sections w-[400px] bg-[#E9E9ED] mt-[30px] rounded-[8.26px] py-[10px] px-[30px] text-[#ADAFB3] text-[15px] font-bric font-[600]'>Create account</button></Link>
+                            <Link href="/emailverification"><button className='input-sections w-[400px] bg-[#E9E9ED] mt-[30px] rounded-[8.26px] py-[10px] px-[30px] hover:text-[#E9E9ED] duration-500 hover:bg-[#ADAFB3] text-[#ADAFB3] text-[15px] font-bric font-[600]'>Create account</button></Link>
                             <div className='flex justify-center mt-[20px]'>
                                 <p className='font-[300] text-[16px] leading-[12.54px] font-bric text-[#000000]'>Do you have an account ? <Link href="/login"><span className='font-[600] text-[16px] leading-[12.54px] font-bric underline text-[#000000]'>Log in</span></Link> </p>
                             </div>

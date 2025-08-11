@@ -36,7 +36,7 @@ function page() {
             <div className='flex items-center justify-end justify-content-center mt-[25px]'>
               <Link href="/forgot"><p className='font-bric font-[400] text-[15px] leading-[12.54px] text-[#0074FF]'>Forget your password?</p></Link>
             </div>
-            <button className='input-sections w-[400px] bg-[#E9E9ED] mt-[20px] rounded-[8.26px] py-[10px] px-[30px] text-[#ADAFB3] text-[15px] font-bric font-[600]'>Login</button>
+            <button className='input-sections hover:text-[#E9E9ED] duration-500 hover:bg-[#ADAFB3] w-[400px] bg-[#E9E9ED] mt-[20px] rounded-[8.26px] py-[10px] px-[30px] text-[#ADAFB3] text-[15px] font-bric font-[600]'>Login</button>
             <div className='flex justify-end justify-content-center mt-[20px]'>
               <p className='font-bric font-[500] text-[16px] text-align-center line-height-full leading-[12.54px] text-[#363636]'>Don't have a DropLeather account yet? <Link href="/signup"><span className='text-[#000000] font-[600] text-[16px] font-bric leading-[12.54px] underline'>Sign Up</span></Link></p>
             </div>
