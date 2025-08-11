@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'display';
+  src: url('/fonts/display.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -17,13 +26,13 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }
 
 @layer utilities {
@@ -31,3 +40,27 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Remove arrows in Chrome, Safari, Edge, and Opera */
+.no-arrows::-webkit-outer-spin-button,
+.no-arrows::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Remove arrows in Firefox */
+.no-arrows[type=number] {
+  -moz-appearance: textfield;
+}
+.otpinput {
+  caret-color: transparent; /* Hides the blinking cursor */
+}
+
+/* ===== Responsive ===== */
+
+@media screen and (max-width: 1010px) {.login-right{display: none;} .login-left{width: 100%;} }
+@media screen and (max-width: 750px) {.heading-h1{font-size: 42px; text-align: center;} .heading-h2{font-size: 24px;} .login-left img{padding-left: 20px;}}
+@media screen and (max-width: 600px) {.heading-h1{font-size: 29.85px;} .heading-h2{font-size: 24px;} .login-left img{padding-left: 0px;}}
+@media screen and (max-width: 600px) { .input-sections{width: 100% !important;} .login-left{padding-left: 10px; padding-right: 10px;} .text-align-center{text-align: center;} .justify-content-center{justify-content: center;} .line-height-full{line-height: 100%;} }
+
+/* ===== Responsive ===== */
