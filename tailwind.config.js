@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily:{
         bric:["Bricolage Grotesque", "sans-serif"],
+        inter:[ "Inter", "sans-serif"]
       }
       // backgroundImage: {
       //   "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
