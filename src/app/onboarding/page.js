@@ -144,7 +144,7 @@ export default function Page() {
             <input
               type="radio"
               name="brandType"
-              className="appearance-none cursor-pointer w-[20px] h-[20px] border-2 border-gray-300 rounded-[4px] bg-white shadow-sm checked:bg-blue-500 checked:border-blue-500  checked:bg-[url('data:image/svg+xml,%3Csvg viewBox=%270 0 24 24%27 fill=%27none%27 stroke=%27white%27 stroke-width=%273%27 xmlns=%27http://www.w3.org/2000/svg%27%3E%3Cpath d=%27M5 13l4 4L19 7%27/%3E%3C/svg%3E')] checked:bg-center checked:bg-no-repeat checked:bg-[length:16px_16px] hover:shadow-md transition absolute translate-y-[50%] right-[16px] top-[16px]"
+              className="appearance-none cursor-pointer w-[20px] h-[20px] border-2 border-gray-300 rounded-[4px] bg-white shadow-sm checked:bg-[#000000] checked:border-[#000000]  checked:bg-[url('data:image/svg+xml,%3Csvg viewBox=%270 0 24 24%27 fill=%27none%27 stroke=%27white%27 stroke-width=%273%27 xmlns=%27http://www.w3.org/2000/svg%27%3E%3Cpath d=%27M5 13l4 4L19 7%27/%3E%3C/svg%3E')] checked:bg-center checked:bg-no-repeat checked:bg-[length:16px_16px] hover:shadow-md transition absolute translate-y-[50%] right-[16px] top-[16px]"
             />
           </div>
 
@@ -161,7 +161,7 @@ export default function Page() {
             <input
               type="radio"
               name="brandType"
-              className="appearance-none cursor-pointer w-[20px] h-[20px] border-2 border-gray-300 rounded-[4px] bg-white shadow-sm checked:bg-blue-500 checked:border-blue-500  checked:bg-[url('data:image/svg+xml,%3Csvg viewBox=%270 0 24 24%27 fill=%27none%27 stroke=%27white%27 stroke-width=%273%27 xmlns=%27http://www.w3.org/2000/svg%27%3E%3Cpath d=%27M5 13l4 4L19 7%27/%3E%3C/svg%3E')] checked:bg-center checked:bg-no-repeat checked:bg-[length:16px_16px] hover:shadow-md transition absolute translate-y-[50%] right-[16px] top-[16px]"
+              className="appearance-none cursor-pointer w-[20px] h-[20px] border-2 border-gray-300 rounded-[4px] bg-white shadow-sm checked:bg-[#000000] checked:border-[#000000]  checked:bg-[url('data:image/svg+xml,%3Csvg viewBox=%270 0 24 24%27 fill=%27none%27 stroke=%27white%27 stroke-width=%273%27 xmlns=%27http://www.w3.org/2000/svg%27%3E%3Cpath d=%27M5 13l4 4L19 7%27/%3E%3C/svg%3E')] checked:bg-center checked:bg-no-repeat checked:bg-[length:16px_16px] hover:shadow-md transition absolute translate-y-[50%] right-[16px] top-[16px]"
             />
           </div>
 
