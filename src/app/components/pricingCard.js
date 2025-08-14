@@ -38,7 +38,7 @@ function PricingCard() {
               <PricingOption i={"i"} text={"rgba(0, 0, 0, 0.75)"} available={"remove"} option={"Custom Wrapping Paper"} />
               <p className='font-[600] text-[18px] pricing-point-heading leading-[26.1px] mb-[15px] mt-[20px]'>Interactive Showcase</p>
               <PricingOption i={"i"} text={"rgba(0, 0, 0, 0.75)"} available={"remove"} option={"AI Fashion Model"} />
-              <PricingOption i={"i"} text={"rgba(0, 0, 0, 0.75)"} available={""} option={"360° Branding Views"} />
+              <PricingOption i={"i"} text={"rgba(0, 0, 0, 0.75)"} available={"remove"} option={"360° Branding Views"} />
               <p className='font-[600] text-[18px] pricing-point-heading leading-[26.1px] mb-[15px] mt-[20px]'>Support</p>
               <PricingOption text={"#000000"} available={"add"} option={"Reliable 24/7 support"} />
             </div></SwiperSlide>
