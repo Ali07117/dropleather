@@ -10,7 +10,7 @@ function page() {
     <div className='px-[230px] subscription-page'>
 
         <div className='m-[80px]'>
-            <h1 className='font-[display] font-[600] text-center text-[44px] leading-[100%] text-[#000000]'>Tailored plans for every stage of your business</h1>
+            <h1 className='font-[display] font-[600] text-center text-[44px]  leading-[100%] text-[#000000]'>Tailored plans for every stage of your business</h1>
             <p className='font-[display] font-[400] mt-[10px] text-center text-[16px] leading-[100%] text-[#000000]'>Whether you're testing the market or building a leather empire, our flexible plans evolve with your business and branding needs.</p>
         </div>
         <div className="pricing-header bg-[] items-end flex justify-between mt-[50px]">

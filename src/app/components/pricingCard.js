@@ -7,19 +7,17 @@ import Slider from "react-slick";
 
 function PricingCard() {
     var settings = {
-        // dots: true, // Enable dots
         infinite: false,
         speed: 500,
-        // centerMode: true,
-        gap: 10,
-        slidesToShow: 3,
+        // gap: 10,
+        slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
         responsive: [
           {
-            breakpoint: 1150,
+            breakpoint: 2500,
             settings: {
-              slidesToShow: 2,
+              slidesToShow: 3,
               // centerMode: true,
               slidesToScroll: 1,
               // dots: true,
@@ -46,16 +44,6 @@ function PricingCard() {
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
-              // initialSlide: 1,
-              // dots: true, // Dots enabled here
-            },
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              // dots: true, // Dots enabled here
             },
           },
         ],
