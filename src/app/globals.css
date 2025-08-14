@@ -71,6 +71,8 @@
   scale: 2.5;
 }
 
+
+
 /* ===== Responsive ===== */
 
 @media screen and (max-width: 1010px) {.login-right{display: none;} .login-left{width: 100%;} }
