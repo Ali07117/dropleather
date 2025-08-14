@@ -9,7 +9,6 @@ function PricingCard() {
     var settings = {
         infinite: false,
         speed: 500,
-        // gap: 10,
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
@@ -18,9 +17,7 @@ function PricingCard() {
             breakpoint: 2500,
             settings: {
               slidesToShow: 3,
-              // centerMode: true,
               slidesToScroll: 1,
-              // dots: true,
             },
           },
           {
@@ -28,7 +25,6 @@ function PricingCard() {
             settings: {
               slidesToShow: 2,
               slidesToScroll: 1,
-              // dots: true,
             },
           },
           {
@@ -36,7 +32,6 @@ function PricingCard() {
             settings: {
               slidesToShow: 2,
               slidesToScroll: 1,
-              // dots: true,
             },
           },
           {
