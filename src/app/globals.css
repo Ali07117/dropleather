@@ -87,7 +87,7 @@
 @media screen and (max-width: 550px) { .ggg{font-size: 15px !important;} }
 @media screen and (max-width: 550px) { .know-you-better-div{width: 100%;} .know-you-better-div-2{gap: 5px;} .month-div{width: 50%;} .year-div{width: 30%;} .day-div{width: 20%;}}
 @media screen and (max-width: 450px) {.what-stage-card{width: 100%;}}
-@media screen and (max-width: 950px) {.pricing-header{margin-top: 0px !important;} .pricing-card-button{padding-top: 10px; padding-bottom: 10px; font-size: 18px; letter-spacing: normal; margin-top: 30px;} .pricing-component, .card-header-para, .pricing-section-header-text, .pricing-point-heading{font-size: 16px;} .card-header-off{font-size: 12px; padding-left: 10px; padding-right: 10px;} .card-header-text{font-size: 22px;} .card-header-price{font-size: 32px;} .pricing-page-bottom-text{font-size: 15px; line-height: 140%;} .pricing-component-main{margin-top: 5px;}}
+@media screen and (max-width: 950px) { .pricing-card-button{padding-top: 10px; padding-bottom: 10px; font-size: 18px; letter-spacing: normal; margin-top: 30px;} .pricing-component, .card-header-para, .pricing-section-header-text, .pricing-point-heading{font-size: 16px;} .card-header-off{font-size: 12px; padding-left: 10px; padding-right: 10px;} .card-header-text{font-size: 22px;} .card-header-price{font-size: 32px;} .pricing-page-bottom-text{font-size: 15px; line-height: 140%;} .pricing-component-main{margin-top: 5px;}}
 
 
 
